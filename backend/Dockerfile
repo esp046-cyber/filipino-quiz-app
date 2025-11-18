@@ -1,3 +1,4 @@
+# Force deployment - updated 2025-11-18
 # Filipino Quiz Backend - Dockerfile
 FROM node:20-alpine AS builder
 
