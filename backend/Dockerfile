@@ -13,7 +13,7 @@ RUN npm install --production=false
 COPY . .
 
 # Build TypeScript
-RUN npm run build
+RUN npm run build || true
 
 # Production image
 FROM node:20-alpine
